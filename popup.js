@@ -23,9 +23,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         console.err(err)
                     }
                 }
-                console.log(injectionResults);
+               console.log(injectionResults);
             }
-
         );
     });
 
