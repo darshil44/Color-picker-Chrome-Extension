@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const btn = document.querySelector('.changeColorBtn');
     const colorGrid = document.querySelector('.colorGrid');     
-    const colorValue = document.querySelector('.colorValue');  
+    const colorValue = document.querySelector('.colorValue');   
     btn.addEventListener('click', async () => { 
         let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
         console.log(tab);
