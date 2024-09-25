@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     try {
                         await navigator.clipboard.writeText(color);
                     } catch (err) {
-                        console.err(err)
+                       console.err(err)
                     }
                 }
                console.log(injectionResults);
